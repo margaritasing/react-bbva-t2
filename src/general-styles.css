@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap%22");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400&display=swap%27');
+
+:root {
+  --primary-color: #FF0000;
+  --secondary-color: #0038FF;
+  --background-footer-color: #C0C0C0;
+
+  --primary-color-backoffice: #444;
+  --secondary-color-backoffice: #2b3046;
+  
+  --primary-backoffice-button: #8cb3df;
+  --secondary-backoffice-button: #fdb77d;
+  --create-backoffice-button: #8fe1bf;
+
+  --primary-backoffice-hover: #468ad8;
+  --secondary-backoffice-hover: #fc933d;
+  --create-backoffice-hover: #6ab596;
+
+  --title-font: 'Poppins', sans-serif;
+  --p-font: 'Mulish', sans-serif;
+  --biggest-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-black: 900;
+
+  /* @media screen and (min-width: 992px) {
+      :root {
+          --biggest-font-size: 4rem;
+          --h1-font-size: 2.25rem;
+          --h2-font-size: 1.5rem;
+          --h3-font-size: 1.25rem;
+          --normal-font-size: 1rem;
+          --small-font-size: .875rem;
+          --smaller-font-size: .813rem; 
+      }
+  } */
+
+}
+
+.primary-button,
+.secondary-button,
+.primary-backoffice-button,
+.secondary-backoffice-button,
+.create-backoffice-button {
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 250ms ease-out;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: var(--title-font);
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+}
+
+.secondary-button {
+  background-color: var(--secondary-color);
+}
+
+.primary-backoffice-button {
+  background-color: var(--primary-backoffice-button);
+}
+
+.secondary-backoffice-button {
+  background-color: var(--secondary-backoffice-button)
+}
+
+.create-backoffice-button {
+  background-color: var(--create-backoffice-button)
+}
+
+.input-form {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  font-family: var(--title-font);
+  font-size: 32px;
+}
+
+.primary-button:hover,
+.secondary-button:hover {
+  background-color: #444;
+}
+
+.primary-backoffice-button:hover {
+  background-color: var(--primary-backoffice-hover);
+}
+
+.secondary-backoffice-button:hover {
+  background-color: var(--secondary-backoffice-hover);
+}
+
+.create-backoffice-button:hover {
+  background-color: var(--create-backoffice-hover)
+}
