@@ -1,0 +1,38 @@
+.container-dashboard {
+  display: flex;
+  background-color: var(--secondary-color-backoffice);
+}
+.container-cards {
+  background-color: var(--secondary-color-backoffice);
+  width: 100vw;
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 1em;
+}
+.card{
+  width: 100%;
+  grid-template-columns: 50% ;
+  justify-content: center;
+  text-align: center;
+}
+.btn-card {
+  display: center;
+  width: 100%;
+}
+.btn-screendashboard {
+  margin: 10px;
+  height: 3em;
+  width: 8em;
+  background-color: green;
+  border-radius: 5px;
+  border: 1px solid green;
+  color: white;
+  text-transform: capitalize;
+  justify-content: center;
+  text-align: center;
+}
+.btn-screendashboard:hover {
+  cursor: pointer;
+  background-color: white;
+  color: green;
+  font-weight: bold;
+}

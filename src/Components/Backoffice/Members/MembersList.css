@@ -1,0 +1,25 @@
+.members-screen{
+  background-color: var(--secondary-color-backoffice);
+  overflow: hidden
+}
+
+.members-container {
+  width: 90%;
+  margin: auto;
+}
+.members-title {
+  padding: 5rem 0;
+  color: white;
+}
+.members__upper-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+@media (max-width: 768px){
+  .members__upper-bar {
+    justify-content: center;
+  }
+}

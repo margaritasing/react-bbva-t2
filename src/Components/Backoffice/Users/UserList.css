@@ -1,0 +1,39 @@
+.container-users{
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.user-table {
+    background-color: var(--secondary-color-backoffice);
+    height: auto;  
+}
+
+.title-users {
+    font-family: var(--title-font);
+    color:aliceblue;
+}
+
+.user-text {
+    font-family: var(--p-font);
+    color:aliceblue;
+}
+
+.th-text {
+    font-size: 20px;
+}
+
+.align-right {
+    display: flex;
+    justify-content: end;
+    width: 70%;
+}
+
+.users-table {
+    margin-top: 20px;
+}
+
+.create {
+    color: var(--create-backoffice-button)
+}
+

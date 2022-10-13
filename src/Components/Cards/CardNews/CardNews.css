@@ -1,0 +1,24 @@
+.card-new {
+    background-color: #468ad8;
+    border-color: transparent;
+    color: #fff;
+    display: flex;
+}
+
+.card-new-img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card-news-desc {
+    margin-top: 10px;
+    height: 60px;
+    text-align: left
+}
+
+@media (max-width: 600px) {
+    .card-new {
+        flex-wrap: wrap;
+    }
+}

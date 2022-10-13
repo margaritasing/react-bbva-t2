@@ -1,0 +1,36 @@
+.card{
+    min-width: 30vh;
+    width: 15%;
+    margin: 5px;
+    background-color: #FDFFA4;
+    border: 1px solid #F9FE00;
+    border-radius: 20px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 6px;
+}
+.noLoaded{
+    border-radius: 0 !important;
+}
+.card .card-img{
+    width: 75px;
+    height: 75px;
+    top: 16px;
+    left: 16px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.card .card-desc{
+    text-align: left;
+    white-space: initial;
+    overflow: hidden;
+}
+
+.card-name {
+    word-break: break-all;
+
+}

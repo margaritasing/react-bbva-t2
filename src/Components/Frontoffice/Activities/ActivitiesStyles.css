@@ -1,0 +1,40 @@
+.activity-container-frontoffice{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.activity-frontoffice-container-p__name{
+    width: 25vw;
+    font-size: calc(0.8vw + 0.7em);
+    text-align: center;
+    font-weight: bold;
+}
+.activity-frontoffice-container__img{
+    width: 20vw;
+    object-fit: cover;
+}
+.activity-frontoffice-button-container{
+    width: 20vw;
+    text-transform: capitalize;
+}
+.btn-activities-frontoffice {
+    font-size: calc(0.8vw + 0.7em);
+    width: 20vw;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #FF0000;
+    cursor: pointer;
+    transition: background-color 250ms ease-out;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: var(--title-font);
+}
+.btn-activities-frontoffice:hover {
+    background-color: #444;
+}

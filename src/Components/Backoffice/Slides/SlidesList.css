@@ -1,0 +1,27 @@
+.slides-screen{
+  background-color: var(--secondary-color-backoffice);
+  overflow: hidden
+}
+
+.slides-backoffice-container {
+  width: 90%;
+  margin: auto;
+}
+.slides-back-title {
+  padding: 5rem 0;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+.slides__upper-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+@media (max-width: 768px){
+  .slides__upper-bar {
+    justify-content: center;
+  }
+} 

@@ -1,0 +1,91 @@
+.home-frontoffice-container {
+    min-height: 100vh;
+    color: black;
+    font-family: var(--title-font);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container-home-welcomeText-img {
+    display: flex;
+    margin: 30px 0;
+}
+
+.members-list {
+    padding-top: 20px;
+}
+
+.home-left-container {
+    max-width: 50vw;
+    float: left;
+    margin: auto;
+    text-align: justify;
+}
+
+.home-right-container {
+    max-width: 50vw;
+    float: right;
+}
+
+.home-welcome-title {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.home-text-description {
+    font-family: var(--p-font);
+    font-size: var(--h2-font-size);
+    width: 80%;
+}
+
+.home-title-about-section {
+    font-size: 2rem;
+    display: inline;
+}
+
+.title-and-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.link-to-component {
+    color: #808080;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.testimonials-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+    justify-items: center;
+    align-content: center;
+    margin: 0 42px;
+}
+
+.testimonials-cards-container .card {
+    justify-content: start;
+}
+
+.testimonials-cards-container .card .card-img {
+    object-fit: cover;
+}
+
+@media (max-width: 850px) {
+    .home-right-container {
+        display: none;
+    }
+
+    .testimonials-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+}

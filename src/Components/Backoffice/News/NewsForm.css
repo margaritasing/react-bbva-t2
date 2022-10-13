@@ -1,0 +1,7 @@
+.form-news{
+    width: 75%;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background-color: var(--secondary-color-backoffice);
+    border-radius: 5px;
+}

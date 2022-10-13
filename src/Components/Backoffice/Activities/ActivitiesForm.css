@@ -1,0 +1,27 @@
+.form-activity{
+    width: 75%;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background-color: var(--secondary-color-backoffice);
+    border-radius: 5px;
+}
+
+.input-field{
+    border-radius: 5px;
+    background-color: aliceblue;
+    border-color: var(--primary-backoffice-button);
+    font-family: var(--p-font);
+}
+
+.img-input-div{
+    display: flex;
+    align-items: center;
+}
+
+.activity-img-prev{
+    max-height: 15vh;
+}
+
+.img-select{
+    margin-left: 5px;
+}

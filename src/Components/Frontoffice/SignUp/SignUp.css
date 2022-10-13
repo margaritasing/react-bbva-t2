@@ -1,0 +1,57 @@
+.form-container-signup {
+    width: 50vw;
+    float: left;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.container-hands-img {
+    width: 50vw;
+    float: right;
+    min-height: 100vh;
+}
+
+.logo-signup {
+    flex-direction: column;
+    width: 30%;
+}
+
+.primary-button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    margin: 10px 0px;
+}
+
+.have-account-text {
+    font-family: var(--title-font);
+    font-size: --normal-font-size;
+    display: flex;
+    justify-content: center;
+}
+
+.have-account-text>.link-to-login {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.tyc-link {
+    color:blue
+}
+
+@media only screen and (max-width: 900px) {
+
+    .form-container-signup {
+        width: 100vw;
+    }
+
+    .container-hands-img {
+        visibility: hidden;
+    }
+
+}

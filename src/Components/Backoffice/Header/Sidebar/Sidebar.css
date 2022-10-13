@@ -1,0 +1,36 @@
+.sidebar {
+    position: relative;
+}
+.sidebar-menu {
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.sidebar-menu__icon {
+    height: 30px;
+    color: aliceblue;
+}
+
+.sidebar-menu__list {
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    transition: all 250ms;
+    padding: 15px 30px;
+    background-color: #444;
+    list-style: none;
+}
+
+.sidebar-menu__link {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.sidebar-menu__link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+.contact-container {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.contact-title {
+  font-family: var(--title-font) ;
+  font-size: 32px;
+}
+.contact__button {
+  margin-top: 20px;
+}
+
+.contribuir-section {
+  margin-bottom: 30px;
+}
+
+.contact__data-section{
+  font-family: var(--p-font);
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.contact__media-list{
+  margin: 0;
+  padding:0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+  .contact__media-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.contact__media-list-item {
+  display: flex;
+  align-items: center;
+}
+

@@ -1,0 +1,53 @@
+.main {
+    background-color: var(--secondary-color-backoffice);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.form-container{
+    width: 60%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.select-field {
+    border-radius: 5px;
+    background-color: var(--secondary-color-backoffice);
+    color: aliceblue;
+    border-style: solid;
+    border-color: var(--primary-backoffice-button);
+    font-family: var(--p-font);
+}
+
+.input {
+    border-radius: 5px;
+    background-color: var(--secondary-color-backoffice);
+    color: aliceblue;
+    border-style: solid;
+    border-color: var(--primary-backoffice-button);
+    height: 30px;
+    font-family: var(--p-font);
+}
+
+.title {
+    text-align: center;
+    color:aliceblue;
+}
+
+.error {
+    justify-content: center;
+    font-family: var(--p-font);
+    font-size: 15px;
+    color:red;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .primary-backoffice-button {
+        width: 150px;
+        align-self: flex-end;
+    }
+    
+}

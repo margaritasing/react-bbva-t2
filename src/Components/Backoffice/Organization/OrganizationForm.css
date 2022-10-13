@@ -1,0 +1,30 @@
+.organization-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem auto;
+    width: 75%;
+}
+
+.form-input {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: .3rem;
+}
+
+.form-button {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.main {
+    background-color: var(--secondary-color-backoffice);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.file-input {
+    color:aliceblue
+}

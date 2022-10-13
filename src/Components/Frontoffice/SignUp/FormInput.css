@@ -1,0 +1,27 @@
+.input-container-signup {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.input-signup {
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.input-signup~.error-message-signup {
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+.input-signup:invalid[focused="true"] {
+    border: 1px solid red;
+}
+
+.input-signup:invalid[focused="true"]~.error-message-signup {
+    display: block;
+}

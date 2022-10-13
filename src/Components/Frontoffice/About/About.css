@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.container-about{
+    width: 88%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.about-title {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+.main-text {
+  font-family: "Mulish", sans-serif;
+  text-align: justify;
+  font-size: 1.8rem;
+}
+
+.about-text{
+    padding: 0 20px;
+    margin-top: 0;
+}
+
+.section-container-about{
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.about-img {
+    width: 45%;
+}
+
+@media (max-width: 43rem){
+    .container-about{
+        width: 90%;
+        margin: auto;
+    }
+
+    .section-container-about{
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+
+      .about-img {
+        width: 80%;
+        margin-top: 15px;
+    }
+
+  }

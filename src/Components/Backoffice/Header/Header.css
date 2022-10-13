@@ -1,0 +1,15 @@
+.header-backoffice-container {
+    padding: 10px;
+    background-color: #1f2333;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-backoffice-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0 10px 10px;
+    }
+}

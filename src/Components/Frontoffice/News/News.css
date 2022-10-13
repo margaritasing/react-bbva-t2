@@ -1,0 +1,27 @@
+.container-frontOffice-news {
+    font-family: var(--title-font);
+    text-align: center;
+}
+
+.new-frontOffice-section-title {
+    margin: 10px;
+    font-size: 32px;
+}
+
+.new-frontOffice-title {
+    font-size: var(--h1-font-size);
+    color: var(--secondary-color);
+}
+
+.new-frontOffice-image {
+    margin: 20px;
+    max-width: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.new-frontOffice-description {
+    font-size: var(--h2-font-size);
+    margin-bottom: 40px;
+    color: var(--primary-color-backoffice);
+    font-style: italic;
+}
